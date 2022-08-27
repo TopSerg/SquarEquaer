@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <Math.h>
+
+#include "comparison.h"
+
+//------------------------------------------------------
+//
+//! @param [in] val1 - The number you want to compare
+//! @param [in] val2 - The number you want to compare with
+//!
+//! @return If condition is true return true
+//
+//-------------------------------------------------------
+
+const int EPS = 0.000002;
+
+
+bool fequals(float val1, float val2)
+{
+    return fabs(val1 - val2) < EPS;
+}
+
+bool fmore(float val1, float val2)
+{
+    if(val1 > val2 + EPS) return true;
+    return false;
+}
+
+bool fless(float val1, float val2)
+{
+    if(val1 < val2 - EPS) return true;
+    return false;
+}

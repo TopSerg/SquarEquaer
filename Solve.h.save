@@ -1,0 +1,6 @@
+#ifndef SOLVE_H_INCLUDED
+#define SOLVE_H_INCLUDED
+
+int Solve(struct equation *square, bool is_testing);
+
+#endif // SOLVE_H_INCLUDED

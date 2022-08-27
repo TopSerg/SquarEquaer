@@ -1,0 +1,100 @@
+# depslib dependency file v1.0
+1661589641 source:c:\users\serge\codeblocks\projects\test2\main.cpp
+	"UnitTest.h"
+	"SquarEquaer.h"
+
+1661440441 c:\users\serge\codeblocks\projects\test2\input.h
+
+1661440175 c:\users\serge\codeblocks\projects\test2\comparison.h
+
+1661409544 c:\users\serge\codeblocks\projects\test2\input.cpp
+	<stdio.h>
+	<Math.h>
+	"input.h"
+	"SquarEquaer.h"
+
+1661346015 c:\users\serge\codeblocks\projects\test2\equation.h
+
+1661409544 c:\users\serge\codeblocks\projects\test2\output.cpp
+	<stdio.h>
+	"output.h"
+	"SquarEquaer.h"
+
+1661440441 c:\users\serge\codeblocks\projects\test2\output.h
+
+1661409638 c:\users\serge\codeblocks\projects\test2\solve.cpp
+	<stdio.h>
+	<Math.h>
+	<assert.h>
+	"Solve.h"
+	"comparison.h"
+	"SquarEquaer.h"
+
+1661440441 c:\users\serge\codeblocks\projects\test2\solve.h
+
+1661350405 c:\users\serge\codeblocks\projects\test2\comparison.cpp
+	<stdio.h>
+	<Math.h>
+	"comparison.h"
+
+1661409729 c:\users\serge\codeblocks\projects\test2\squarequaer.cpp
+	<iostream>
+	<stdio.h>
+	<Math.h>
+	"input.cpp"
+	"output.cpp"
+	"Solve.cpp"
+	"SquarEquaer.h"
+
+1661520974 c:\users\serge\codeblocks\projects\test2\squarequaer.h
+
+1661409729 c:\users\serge\codeblocks\projects\test2\unittest.cpp
+	<stdio.h>
+	"SquarEquaer.cpp"
+	"comparison.h"
+	"UnitTest.h"
+
+1661589562 c:\users\serge\codeblocks\projects\test2\unittest.h
+
+1661437265 source:c:\users\serge\codeblocks\projects\test2\test_function.cpp
+	<stdio.h>
+
+1661440181 source:c:\users\serge\codeblocks\projects\test2\comparison.cpp
+	<stdio.h>
+	<Math.h>
+	"comparison.h"
+
+1661440441 source:c:\users\serge\codeblocks\projects\test2\input.cpp
+	<stdio.h>
+	<Math.h>
+	"input.h"
+	"SquarEquaer.h"
+
+1661514679 source:c:\users\serge\codeblocks\projects\test2\output.cpp
+	<stdio.h>
+	"output.h"
+	"SquarEquaer.h"
+
+1661517180 source:c:\users\serge\codeblocks\projects\test2\solve.cpp
+	<stdio.h>
+	<Math.h>
+	<assert.h>
+	"Solve.h"
+	"comparison.h"
+	"SquarEquaer.h"
+
+1661589562 source:c:\users\serge\codeblocks\projects\test2\unittest.cpp
+	<stdio.h>
+	"SquarEquaer.h"
+	"comparison.h"
+	"UnitTest.h"
+
+1661540364 source:c:\users\serge\codeblocks\projects\test2\squarequaer.cpp
+	<iostream>
+	<stdio.h>
+	<Math.h>
+	"input.h"
+	"output.h"
+	"Solve.h"
+	"SquarEquaer.h"
+

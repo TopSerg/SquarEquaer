@@ -1,0 +1,10 @@
+#ifndef EQUATION_H_INCLUDED
+#define EQUATION_H_INCLUDED
+
+struct equation
+{
+    float a, b, c, x1, x2, realy_x1, realy_x2;
+    int num_roots;
+};
+
+#endif // EQUATION_H_INCLUDED
