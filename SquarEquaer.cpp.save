@@ -28,20 +28,23 @@ int SquarEquaer(struct equation *square, bool is_testing)
 
 bool try_test(int argc, char **argv)
 {
-
-    if(argc > 1)
+    while(true)
     {
-        if(SergCMP(argv[1], "-test"))
-            return true;
+        if(argc > 1)
+        {
+            if(SergCMP(*(argv+1), "-test"))
+                return true;
+            else
+            {
+                puts("You made a mistake in the parameters, please try again\n"
+                     "Enter only the parameters\n");
+                scanf("%s", *(argv+1));
+            }
+        }
         else
         {
-            puts("You made a mistake in the parameters, please try again\nEnter only the parameters\n");
-            scanf(
+            return false;
         }
-    }
-    else
-    {
-        return false;
     }
 }
 
@@ -71,23 +74,21 @@ bool Test_choise()
     return yes_or_no == 'Y';
 }
 
-bool SergCMP(char* str1, char* str2)
+bool SergCMP(const char* str1, const char* str2)
 {
-    int end_of_str1 = *str1, end_of_str2 = *str2, i = 0;
+    int num_of_letter = 0;
 
-    while(end_of_str1 != 0 && end_of_str2 != 0)
+    while(*(str1+num_of_letter) != 0 && *(str2+num_of_letter) != 0)
     {
-        i++;
-
-        if(*(str1+i) != *(str2+i))
+        if(*(str1+num_of_letter) != *(str2+num_of_letter))
         {
             return false;
         }
 
-        end_of_str1 = *(str1+i), end_of_str2 = *(str2+i);
+        num_of_letter++;
     }
 
-    if(end_of_str1 != end_of_str2)
+    if(*(str1+num_of_letter) != *(str2+num_of_letter))
         return false;
 
     return true;

@@ -1,6 +1,6 @@
 #include "UnitTest.h"
 #include "SquarEquaer.h"
-
+// .gitignore
 
 int main(int argc, char **argv)
 {

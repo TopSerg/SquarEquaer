@@ -1,6 +1,8 @@
 #ifndef SQUAREQUAER_H_INCLUDED
 #define SQUAREQUAER_H_INCLUDED
 
+typedef unsigned int INDEX_TYPE;
+
 struct equation
 {
     float a, b, c, x1, x2, realy_x1, realy_x2;
@@ -21,14 +23,16 @@ void test_function();
 
 bool Test_choise();
 
+bool SergCMP(const char* str1, const char* str2);
+
 //------------------------------------------------------
 //
-//! @param [in] argc - structure with coefficients
-//! @param [in] argv - regulates system testing
+//! @param [in] argc - Number of arguments
+//! @param [in] argv - Arguments
 //!
-//! @return Number of solutions to the equation
+//! @return Must we run tests
 //!
-//! @note Equation must be in ax^2 + bx + c = 0 format
+//! @note [kna.s,dmvboeirhbn vjhbv reoa8 87hcosb vo eka
 //
 //-------------------------------------------------------
 

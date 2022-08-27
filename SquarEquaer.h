@@ -21,7 +21,7 @@ void test_function();
 
 bool Test_choise();
 
-bool SergCMP(char* str1, char* str2);
+bool SergCMP(const char* str1, const char* str2);
 
 //------------------------------------------------------
 //

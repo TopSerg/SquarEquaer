@@ -24,12 +24,14 @@ int UnitTest()
         1, 0, 0, 0, 0, -0, -0, 1
     };
 
-
-    for(int i = 0; i < sizeof(squares)/sizeof(squares[0]); i++)
+    // i -> nomer testa
+    //
+    unsigned int k = sizeof(squares)/sizeof(squares[0]);
+    for(unsigned int num_of_test = 0; num_of_test < k; num_of_test++)
     {
-        printf("Number of Test: %d\n", (i+1));
+        printf("Number of Test: %d\n", (num_of_test+1));
 
-        struct equation this_equation = squares[i];
+        struct equation this_equation = squares[num_of_test];
 
         int num_roots = SquarEquaer(&this_equation, is_testing);
 
@@ -46,6 +48,6 @@ int UnitTest()
 
         }
     }
-//    fclose(fp);
+
     return 0;
 }

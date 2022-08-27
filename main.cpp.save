@@ -1,6 +1,6 @@
 #include "UnitTest.h"
 #include "SquarEquaer.h"
-
+// .gitignore
 
 int main(int argc, char **argv)
 {
@@ -12,9 +12,9 @@ int main(int argc, char **argv)
 
         float a = 0, b = 0, c = 0, x1 = 0, x2 = 0;
 
-        struct equation square = {a, b, c, x1, x2};
+        struct equation square = {a, b, c, x1, x2, 0, 0, 0};
 
-        int num_roots = SquarEquaer(&square, is_testing);
+        SquarEquaer(&square, is_testing);
     }
     else
     {
